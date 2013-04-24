@@ -1,0 +1,71 @@
+ Spring 3 Framework
+
+-- Database Connection
+        JDBC
+
+-- Annotation 
+        @Controller
+        @RequestMapping("")
+                @RequestMapping("/member/*")
+                @RequestMapping(method = RequestMethod.GET)
+        
+        @ModelAttribute("member")
+        @Autowired
+        @Component
+        @Value
+        @SessionAttributes("")
+
+-- Validation
+        Validator Spring 
+        Validator JSR 303
+
+
+
+-- Interceptor
+        HandlerInterceptorAdapter
+
+-- MessageSource
+        ResourceBundleMessageSource
+
+-- Lenguage 
+            * LocaleChangeInterceptor
+            * CookieLocaleResolver
+
+-- HandlerMapping     
+        DefaultAnnotationHandlerMapping   
+        SelectedAnnotationHandlerMapping
+
+
+-- BindingInitializer
+        AnnotationMethodHandlerAdapter
+        WebBindingInitializer
+
+
+-- ExceptionResolver
+        SimpleMappingExceptionResolver
+
+        
+-- ViewResolver (PDF,html..)
+        ContentNegotiatingViewResolver
+        ResourceBundleViewResolver
+        InternalResourceViewResolver
+            
+
+
+Part One
+
+Part Two 
+- Clean the data for the Database
+- Show Student,Course 
+- Separate Footer and Heater.
+- Location -- Multiples lenguages.
+- Insert new Data (Student, Course)
+ 
+ 
+
+
+
+
+
+
+
